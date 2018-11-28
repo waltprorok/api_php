@@ -47,5 +47,6 @@ if ($product->name != null) {
 // tell the user product does not exist
     echo json_encode(array ("message" => "Product does not exist."));
 }
+
 ?>
 
