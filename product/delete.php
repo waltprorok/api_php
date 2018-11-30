@@ -31,17 +31,15 @@ if ($product->delete()) {
     http_response_code(200);
 
     // tell the user
-    echo json_encode(array ("message" => "Product was deleted."));
-}
-
-// if unable to delete the product
+    echo json_encode(array("message" => "Product was deleted."));
+} // if unable to delete the product
 else {
 
     // set response code - 503 service unavailable
     http_response_code(503);
 
     // tell the user
-    echo json_encode(array ("message" => "Unable to delete product."));
+    echo json_encode(array("message" => "Unable to delete product."));
 }
 ?>
 

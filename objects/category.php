@@ -35,8 +35,9 @@ class Category
     }
 
     // used by select drop-down list
+
     /**
-     * 
+     *
      * @return type
      */
     public function read()

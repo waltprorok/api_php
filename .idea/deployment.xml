@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="LAMP Server">
+    <serverData>
+      <paths name="LAMP Server">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="source/git/api" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

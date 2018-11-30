@@ -28,9 +28,9 @@ $num = $stmt->rowCount();
 if ($num > 0) {
 
     // products array
-    $products_arr = array ();
-    $products_arr["records"] = array ();
-    $products_arr["paging"] = array ();
+    $products_arr = array();
+    $products_arr["records"] = array();
+    $products_arr["paging"] = array();
 
     // retrieve our table contents
     // fetch() is faster than fetchAll()
@@ -41,7 +41,7 @@ if ($num > 0) {
         // just $name only
         extract($row);
 
-        $product_item = array (
+        $product_item = array(
             "id" => $id,
             "name" => $name,
             "description" => html_entity_decode($description),
@@ -72,7 +72,7 @@ if ($num > 0) {
 
     // tell the user products does not exist
     echo json_encode(
-            array ("message" => "No products found.")
+        array("message" => "No products found.")
     );
 }
 ?>

@@ -23,7 +23,7 @@ $product->readOne();
 
 if ($product->name != null) {
     // create array
-    $product_arr = array (
+    $product_arr = array(
         "id" => $product->id,
         "name" => $product->name,
         "description" => $product->description,
@@ -39,5 +39,5 @@ if ($product->name != null) {
     // set response code - 404 Not found
     http_response_code(404);
     // tell the user product does not exist
-    echo json_encode(array ("message" => "Product does not exist."));
+    echo json_encode(array("message" => "Product does not exist."));
 }

@@ -37,17 +37,15 @@ if ($product->update()) {
     http_response_code(200);
 
     // tell the user
-    echo json_encode(array ("message" => "Product was updated."));
-}
-
-// if unable to update the product, tell the user
+    echo json_encode(array("message" => "Product was updated."));
+} // if unable to update the product, tell the user
 else {
 
     // set response code - 503 service unavailable
     http_response_code(503);
 
     // tell the user
-    echo json_encode(array ("message" => "Unable to update product."));
+    echo json_encode(array("message" => "Unable to update product."));
 }
 
 ?>

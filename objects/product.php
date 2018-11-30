@@ -27,7 +27,7 @@ class Product
     }
 
     /**
-     * 
+     *
      * @return type
      */
     function read()
@@ -54,8 +54,9 @@ class Product
     }
 
     // create product
+
     /**
-     * 
+     *
      * @return boolean
      */
     function create()
@@ -92,7 +93,7 @@ class Product
     }
 
     /**
-     * 
+     *
      */
     function readOne()
     {
@@ -130,7 +131,7 @@ class Product
     }
 
     /**
-     * 
+     *
      * @return boolean
      */
     function update()
@@ -168,8 +169,9 @@ class Product
     }
 
     // delete the product
+
     /**
-     * 
+     *
      * @return boolean
      */
     function delete()
@@ -190,8 +192,9 @@ class Product
     }
 
     // search products
+
     /**
-     * 
+     *
      * @param type $keywords
      * @return type
      */
@@ -228,8 +231,9 @@ class Product
     }
 
     // read products with pagination
+
     /**
-     * 
+     *
      * @param type $from_record_num
      * @param type $records_per_page
      * @return type
@@ -262,8 +266,9 @@ class Product
     }
 
     // used for paging products
+
     /**
-     * 
+     *
      * @return type
      */
     public function count()

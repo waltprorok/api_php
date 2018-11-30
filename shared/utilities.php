@@ -4,7 +4,7 @@ class Utilities
 {
 
     /**
-     * 
+     *
      * @param type $page
      * @param type $total_rows
      * @param type $records_per_page
@@ -15,7 +15,7 @@ class Utilities
     {
 
         // paging array
-        $paging_arr = array ();
+        $paging_arr = array();
 
         // button for first page
         $paging_arr["first"] = $page > 1 ? "{$page_url}page=1" : "";
@@ -30,7 +30,7 @@ class Utilities
         $initial_num = $page - $range;
         $condition_limit_num = ($page + $range) + 1;
 
-        $paging_arr['pages'] = array ();
+        $paging_arr['pages'] = array();
         $page_count = 0;
 
         for ($x = $initial_num; $x < $condition_limit_num; $x++) {
