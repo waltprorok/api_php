@@ -15,4 +15,3 @@ $records_per_page = 5;
 
 // calculate for the query LIMIT clause
 $from_records_num = ($records_per_page * $page) - $records_per_page;
-?>
